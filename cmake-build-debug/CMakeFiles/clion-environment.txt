@@ -1,4 +1,0 @@
-ToolSet: w64 5.0@E:\GCC72\mingw64
-Options: 
-
-Options:
