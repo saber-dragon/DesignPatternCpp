@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\DesignPatternTest_testShips.cpp.dir/objects.a
+E:\GCC72\mingw64\bin\ar.exe cr CMakeFiles\DesignPatternTest_testShips.cpp.dir/objects.a @CMakeFiles\DesignPatternTest_testShips.cpp.dir\objects1.rsp
+E:\GCC72\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\DesignPatternTest_testShips.cpp.dir/objects.a -Wl,--no-whole-archive  -o DesignPatternTest_testShips.cpp.exe -Wl,--out-implib,libDesignPatternTest_testShips.cpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DesignPatternTest_testShips.cpp.dir\linklibs.rsp

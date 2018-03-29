@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="StrategyDesignPattern"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\strategyDesignPattern\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/GCC72/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/GCC72/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/GCC72/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/GCC72/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StrategyDesignPattern_demo">
+				<Option output="E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/StrategyDesignPattern_demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/GCC72/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="E:/GCC72/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/GCC72/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="E:/GCC72/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="E:/GCC72/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="E:/GCC72/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/GCC72/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/Makefile&quot;  VERBOSE=1 StrategyDesignPattern_demo"/>
+					<CompileFile command="E:/GCC72/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/GCC72/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/GCC72/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StrategyDesignPattern_demo/fast">
+				<Option output="E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/StrategyDesignPattern_demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/GCC72/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="E:/GCC72/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/GCC72/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="E:/GCC72/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="E:/GCC72/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="E:/GCC72/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/GCC72/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/Makefile&quot;  VERBOSE=1 StrategyDesignPattern_demo/fast"/>
+					<CompileFile command="E:/GCC72/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/GCC72/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/GCC72/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/coding/designPateterns/cmake-build-debug/strategyDesignPattern/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/GitHub/coding/designPateterns/strategyDesignPattern/animal.hpp">
+			<Option target="StrategyDesignPattern_demo"/>
+		</Unit>
+		<Unit filename="E:/GitHub/coding/designPateterns/strategyDesignPattern/bird.hpp">
+			<Option target="StrategyDesignPattern_demo"/>
+		</Unit>
+		<Unit filename="E:/GitHub/coding/designPateterns/strategyDesignPattern/dog.hpp">
+			<Option target="StrategyDesignPattern_demo"/>
+		</Unit>
+		<Unit filename="E:/GitHub/coding/designPateterns/strategyDesignPattern/fly.hpp">
+			<Option target="StrategyDesignPattern_demo"/>
+		</Unit>
+		<Unit filename="E:/GitHub/coding/designPateterns/strategyDesignPattern/sdd_demo.cpp">
+			<Option target="StrategyDesignPattern_demo"/>
+		</Unit>
+		<Unit filename="E:/GitHub/coding/designPateterns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/GitHub/coding/designPateterns/strategyDesignPattern/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\strategyDesignPattern\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
